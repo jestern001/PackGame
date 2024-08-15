@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"PackGame",
-    "path":"PackGame.yyp",
+    "name":"Block",
+    "path":"folders/Block.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

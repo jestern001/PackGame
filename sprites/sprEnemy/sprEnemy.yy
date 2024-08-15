@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"PackGame",
-    "path":"PackGame.yyp",
+    "name":"Enemy",
+    "path":"folders/Enemy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

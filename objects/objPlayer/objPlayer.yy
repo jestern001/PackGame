@@ -14,8 +14,8 @@
   "name":"objPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"PackGame",
-    "path":"PackGame.yyp",
+    "name":"Player",
+    "path":"folders/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

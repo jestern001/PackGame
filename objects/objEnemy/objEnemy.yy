@@ -10,8 +10,8 @@
   "name":"objEnemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"PackGame",
-    "path":"PackGame.yyp",
+    "name":"Enemy",
+    "path":"folders/Enemy.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"PackGame",
-    "path":"PackGame.yyp",
+    "name":"Pellets",
+    "path":"folders/Pellets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

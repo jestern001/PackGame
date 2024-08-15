@@ -6,8 +6,8 @@
   "name":"objGate",
   "overriddenProperties":[],
   "parent":{
-    "name":"PackGame",
-    "path":"PackGame.yyp",
+    "name":"Gate",
+    "path":"folders/Gate.yy",
   },
   "parentObjectId":null,
   "persistent":false,

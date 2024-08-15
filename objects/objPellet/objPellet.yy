@@ -6,8 +6,8 @@
   "name":"objPellet",
   "overriddenProperties":[],
   "parent":{
-    "name":"PackGame",
-    "path":"PackGame.yyp",
+    "name":"Pellet",
+    "path":"folders/Pellets/Pellet.yy",
   },
   "parentObjectId":null,
   "persistent":false,

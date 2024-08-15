@@ -6,8 +6,8 @@
   "name":"objBlock",
   "overriddenProperties":[],
   "parent":{
-    "name":"PackGame",
-    "path":"PackGame.yyp",
+    "name":"Block",
+    "path":"folders/Block.yy",
   },
   "parentObjectId":null,
   "persistent":false,
