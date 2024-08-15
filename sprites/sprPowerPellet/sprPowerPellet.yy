@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Pellets",
-    "path":"folders/Pellets.yy",
+    "name":"PowerPellet",
+    "path":"folders/Pellets/PowerPellet.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

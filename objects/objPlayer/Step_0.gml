@@ -39,9 +39,13 @@ if speed == 0 {
 
 // set sprite
 if invincible_timer != 0 {
-	image_alpha = 0.5;
+	if current_second % 2 == 0 {
+		image_blend = invincible_color1;
+	} else {
+		image_blend = invincible_color2;
+	}
 } else {
-	image_alpha = 1;
+	image_blend = normal_color;
 }
 
 /// screen wrap

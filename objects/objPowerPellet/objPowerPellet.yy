@@ -6,8 +6,8 @@
   "name":"objPowerPellet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pellets",
-    "path":"folders/Pellets.yy",
+    "name":"PowerPellet",
+    "path":"folders/Pellets/PowerPellet.yy",
   },
   "parentObjectId":null,
   "persistent":false,
