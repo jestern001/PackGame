@@ -5,4 +5,6 @@ if invincible_timer != 0 {
 		x = xstart;
 		y = ystart;
 	}
+} else {
+	hit();
 }
