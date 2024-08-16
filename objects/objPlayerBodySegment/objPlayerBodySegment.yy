@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"objPowerPellet",
+  "%Name":"objPlayerBodySegment",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objPowerPellet",
+  "name":"objPlayerBodySegment",
   "overriddenProperties":[],
   "parent":{
-    "name":"PowerPellet",
-    "path":"folders/Pellets/PowerPellet.yy",
+    "name":"Player",
+    "path":"folders/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPowerStone",
-    "path":"sprites/sprPowerStone/sprPowerStone.yy",
+    "name":"sprLightDragonBodySegment",
+    "path":"sprites/sprLightDragonBodySegment/sprLightDragonBodySegment.yy",
   },
   "spriteMaskId":null,
   "visible":true,

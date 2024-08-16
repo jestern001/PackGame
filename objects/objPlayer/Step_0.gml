@@ -18,6 +18,13 @@ if (x - 16) % 32 == 0 and (y - 16) % 32 == 0 {
 	} else {
 		speed = 0;
 	}
+
+	// make body segment if invincible
+	if invincible_timer != 0 {
+		if not instance_place(x, y, objPlayerBodySegment) {
+			instance_create_layer(x, y, layer, objPlayerBodySegment);
+		}
+	}
 }
 
 // decriment invincible timer
@@ -27,7 +34,7 @@ if invincible_timer != 0 {
 
 /// animate
 // set facing direction
-image_angle = direction
+// image_angle = direction
 
 // set animation speed
 if speed == 0 {
@@ -39,13 +46,9 @@ if speed == 0 {
 
 // set sprite
 if invincible_timer != 0 {
-	if current_second % 2 == 0 {
-		image_blend = invincible_color1;
-	} else {
-		image_blend = invincible_color2;
-	}
+	sprite_index = sprPlayerLightDragon;
 } else {
-	image_blend = normal_color;
+	sprite_index = sprPlayerSelder;
 }
 
 /// screen wrap
