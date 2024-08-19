@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprEnemy",
-    "path":"sprites/sprEnemy/sprEnemy.yy",
+    "name":"sprBokoClownRed",
+    "path":"sprites/sprBokoClownRed/sprBokoClownRed.yy",
   },
   "spriteMaskId":null,
   "visible":true,

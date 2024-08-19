@@ -33,10 +33,6 @@ if invincible_timer != 0 {
 	invincible_timer -= 1;
 }
 
-/// animate
-// set facing direction
-// image_angle = direction
-
 // set animation speed
 if speed == 0 {
 	image_speed = 0;

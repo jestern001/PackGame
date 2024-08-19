@@ -35,6 +35,8 @@
     {"id":{"name":"objPowerPellet","path":"objects/objPowerPellet/objPowerPellet.yy",},},
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
     {"id":{"name":"sprBlock","path":"sprites/sprBlock/sprBlock.yy",},},
+    {"id":{"name":"sprBokoClownBlue","path":"sprites/sprBokoClownBlue/sprBokoClownBlue.yy",},},
+    {"id":{"name":"sprBokoClownRed","path":"sprites/sprBokoClownRed/sprBokoClownRed.yy",},},
     {"id":{"name":"sprEnemy","path":"sprites/sprEnemy/sprEnemy.yy",},},
     {"id":{"name":"sprGate","path":"sprites/sprGate/sprGate.yy",},},
     {"id":{"name":"sprLightDragonBodySegment","path":"sprites/sprLightDragonBodySegment/sprLightDragonBodySegment.yy",},},
