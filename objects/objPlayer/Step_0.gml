@@ -22,7 +22,8 @@ if (x - 16) % 32 == 0 and (y - 16) % 32 == 0 {
 	// make body segment if invincible
 	if invincible_timer != 0 {
 		if not instance_place(x, y, objPlayerBodySegment) {
-			instance_create_layer(x, y, layer, objPlayerBodySegment);
+			var _body_segment = instance_create_layer(x, y, layer, objPlayerBodySegment);
+			_body_segment.image_angle = direction;
 		}
 	}
 }
@@ -47,8 +48,10 @@ if speed == 0 {
 // set sprite
 if invincible_timer != 0 {
 	sprite_index = sprPlayerLightDragon;
+	image_angle = direction;
 } else {
 	sprite_index = sprPlayerSelder;
+	image_angle = 0;
 }
 
 /// screen wrap
