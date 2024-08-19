@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"sprPlayerSelder",
-  "bboxMode":0,
+  "bboxMode":1,
   "bbox_bottom":31,
-  "bbox_left":4,
-  "bbox_right":25,
+  "bbox_left":0,
+  "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

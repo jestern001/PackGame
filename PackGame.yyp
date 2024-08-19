@@ -33,7 +33,7 @@
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"objPlayerBodySegment","path":"objects/objPlayerBodySegment/objPlayerBodySegment.yy",},},
     {"id":{"name":"objPowerPellet","path":"objects/objPowerPellet/objPowerPellet.yy",},},
-    {"id":{"name":"rm1","path":"rooms/rm1/rm1.yy",},},
+    {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
     {"id":{"name":"sprBlock","path":"sprites/sprBlock/sprBlock.yy",},},
     {"id":{"name":"sprEnemy","path":"sprites/sprEnemy/sprEnemy.yy",},},
     {"id":{"name":"sprGate","path":"sprites/sprGate/sprGate.yy",},},
@@ -48,7 +48,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm1","path":"rooms/rm1/rm1.yy",},},
+    {"roomId":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
