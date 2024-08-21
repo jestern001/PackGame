@@ -3,6 +3,7 @@
 /// check inputs on a grid of size 32
 // TODO: replace 16 with half of the sprite size to make code more robust
 if (x - 16) % 32 == 0 and (y - 16) % 32 == 0 {
+
 	if keyboard_check(vk_up) {
 		direction = 90;
 		speed = move_speed;
@@ -20,10 +21,27 @@ if (x - 16) % 32 == 0 and (y - 16) % 32 == 0 {
 	}
 
 	// make body segment if invincible
-	if invincible_timer != 0 {
+	if invincible_timer != 0 and speed != 0{
 		if not instance_place(x, y, objPlayerBodySegment) {
+			// create body segment
 			var _body_segment = instance_create_layer(x, y, layer, objPlayerBodySegment);
 			_body_segment.image_angle = direction;
+			
+			// make tail
+			if instance_number(objPlayerBodySegment) == 1 {
+				_body_segment.image_index = -1;
+			}
+			
+			//// make turns
+			//if previous_segment != pointer_null {
+			//	if previous_segment.image_angle != _body_segment.image_angle {
+			//		if previous_segment.image_angle == 90 and _body_segment.image_angle == 0 {
+			//			_body_segment.image_index = 1;
+			//		}
+			//	}
+			//}
+			
+			previous_segment = _body_segment;
 		}
 	}
 }
@@ -42,12 +60,18 @@ if speed == 0 {
 }
 
 // set sprite
+var _layer_id = layer_get_id("Background");
+var _bkg_id = layer_background_get_id(_layer_id);
 if invincible_timer != 0 {
 	sprite_index = sprPlayerLightDragon;
 	image_angle = direction;
+	objBlock.sprite_index = sprCloud;
+	layer_background_sprite(_bkg_id, bkgSky);
 } else {
 	sprite_index = sprPlayerSelder;
 	image_angle = 0;
+	objBlock.sprite_index = sprMesa;
+	layer_background_sprite(_bkg_id, bkgGrass);
 }
 
 /// screen wrap
@@ -59,3 +83,4 @@ if y > room_height
 	y = 0;
 if y < 0
 	y = room_height;
+

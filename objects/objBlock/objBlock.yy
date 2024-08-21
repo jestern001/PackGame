@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sprBlock",
-    "path":"sprites/sprBlock/sprBlock.yy",
+    "name":"sprMesa",
+    "path":"sprites/sprMesa/sprMesa.yy",
   },
   "spriteMaskId":null,
   "visible":true,
