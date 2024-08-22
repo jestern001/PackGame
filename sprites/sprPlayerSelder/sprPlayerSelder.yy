@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2b3e2a7b-e6a6-4f2d-ad56-e943d6233ca7","name":"2b3e2a7b-e6a6-4f2d-ad56-e943d6233ca7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e6b3d197-64ca-44fe-8e8f-6ee5aef291b9","name":"e6b3d197-64ca-44fe-8e8f-6ee5aef291b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"a6955211-1e3d-45e0-a662-1dbe5f37d808","name":"a6955211-1e3d-45e0-a662-1dbe5f37d808","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"f2da1dab-3ccf-4f04-a706-111030784586","name":"f2da1dab-3ccf-4f04-a706-111030784586","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"e810f2fe-d73e-493c-a2d8-d6aa074e7efd","name":"e810f2fe-d73e-493c-a2d8-d6aa074e7efd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
@@ -22,12 +22,7 @@
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0a8bc645-d8dd-4660-8712-8f373adedad8","blendMode":0,"displayName":"Feet","isLocked":false,"name":"0a8bc645-d8dd-4660-8712-8f373adedad8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"a34b5b8c-5aea-46f0-9430-f0848e40cca5","blendMode":0,"displayName":"Body","isLocked":false,"name":"a34b5b8c-5aea-46f0-9430-f0848e40cca5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"0a21f954-1dba-42e8-bdf1-7deaf7db82c3","blendMode":0,"displayName":"Crown","isLocked":false,"name":"0a21f954-1dba-42e8-bdf1-7deaf7db82c3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"7239842f-e8e3-46ca-b31b-7875dc06c5ab","blendMode":0,"displayName":"Face","isLocked":false,"name":"7239842f-e8e3-46ca-b31b-7875dc06c5ab","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"29407d4f-4d44-4bcb-9257-e8e22aabf78d","blendMode":0,"displayName":"Hair","isLocked":false,"name":"29407d4f-4d44-4bcb-9257-e8e22aabf78d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"f526f2d2-434e-44ab-bf43-dd1b84ddc60f","blendMode":0,"displayName":"Head","isLocked":false,"name":"f526f2d2-434e-44ab-bf43-dd1b84ddc60f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"85a53c3b-ffc7-484b-91a6-538d7f785d1c","blendMode":0,"displayName":"default","isLocked":false,"name":"85a53c3b-ffc7-484b-91a6-538d7f785d1c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprPlayerSelder",
   "nineSlice":null,
@@ -77,8 +72,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b3e2a7b-e6a6-4f2d-ad56-e943d6233ca7","path":"sprites/sprPlayerSelder/sprPlayerSelder.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"157f7dce-d5e7-489e-b2a6-7eb2ea3ffc65","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e6b3d197-64ca-44fe-8e8f-6ee5aef291b9","path":"sprites/sprPlayerSelder/sprPlayerSelder.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0430fa74-266f-4ee4-823a-3791dec77427","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a6955211-1e3d-45e0-a662-1dbe5f37d808","path":"sprites/sprPlayerSelder/sprPlayerSelder.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"93e1f5cb-84cb-488a-a370-4c4fa518593f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},

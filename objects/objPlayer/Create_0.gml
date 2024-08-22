@@ -9,7 +9,10 @@ normal_color = c_white;
 invincible_color1 = c_yellow;
 invincible_color2 = c_lime;
 
+dead = false;
+
 hit = function() {
-	score = 0;
-	game_restart();
+	x = -300;
+	y = -300;
+	dead = true;
 }

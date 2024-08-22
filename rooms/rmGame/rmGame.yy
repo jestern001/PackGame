@@ -797,8 +797,8 @@
   ],
   "name":"rmGame",
   "parent":{
-    "name":"PackGame",
-    "path":"PackGame.yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
