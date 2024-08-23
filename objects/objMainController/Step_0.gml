@@ -17,6 +17,7 @@ if keyboard_check_pressed(vk_down) {
 }
 
 if keyboard_check_pressed(vk_enter) {
+	audio_play_sound(sndPowerUp, 1, false)
 	if selection == 0 {
 		room_goto(rmGame);
 	} else if selection == 1 {

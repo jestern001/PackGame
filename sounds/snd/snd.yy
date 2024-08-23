@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":0,
+  "bitRate":16,
+  "compression":3,
+  "conversionMode":0,
+  "duration":31.660376,
+  "name":"snd",
+  "parent":{
+    "name":"PackGame",
+    "path":"PackGame.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":5512,
+  "soundFile":"snd.mp3",
+  "type":0,
+  "volume":0.31,
+}

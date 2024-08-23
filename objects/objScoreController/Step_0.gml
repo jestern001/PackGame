@@ -15,6 +15,7 @@ if keyboard_check_pressed(vk_enter) {
 	// reset score
 	score = 0;
 	
+	audio_play_sound(sndPowerUp, 1, false)
 	// restart game
 	room_goto(rmStart);
 }
