@@ -14,8 +14,8 @@
   "name":"objPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Player.yy",
+    "name":"Seldar",
+    "path":"folders/Player/Seldar.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Start",
-    "path":"folders/Rooms/Start.yy",
+    "path":"folders/Rooms/SacredStones/Start.yy",
   },
   "parentObjectId":null,
   "persistent":false,

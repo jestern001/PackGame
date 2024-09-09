@@ -18,7 +18,7 @@
   "name":"rmScore",
   "parent":{
     "name":"Score",
-    "path":"folders/Rooms/Score.yy",
+    "path":"folders/Rooms/SacredStones/Score.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
