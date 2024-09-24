@@ -1,4 +1,4 @@
-/// @description update
+///// @description update
 
 //if dead
 if dead {

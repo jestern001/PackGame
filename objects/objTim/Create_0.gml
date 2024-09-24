@@ -12,3 +12,7 @@ hit = function() {
 	audio_stop_sound(snd);
 	audio_play_sound(sndOhNo, 1, false);
 }
+
+// align to grid
+x = 32 * ((x - 16) / 32);
+y = 32 * ((y - 16) / 32);

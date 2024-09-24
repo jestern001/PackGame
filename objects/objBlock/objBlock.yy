@@ -6,8 +6,8 @@
   "name":"objBlock",
   "overriddenProperties":[],
   "parent":{
-    "name":"Block",
-    "path":"folders/Block.yy",
+    "name":"Stuff",
+    "path":"folders/Stuff.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sprMesa",
-    "path":"sprites/sprMesa/sprMesa.yy",
+    "name":"sprSolid",
+    "path":"sprites/sprSolid/sprSolid.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

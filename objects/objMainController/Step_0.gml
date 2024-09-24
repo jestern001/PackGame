@@ -51,7 +51,7 @@ if keyboard_check_pressed(vk_enter) {
 				_next_room = rmSeldarGame;
 				break;
 			case 1:
-				_next_room = rmTim1Scene;
+				_next_room = rmKokiriTown;
 				break;
 		}
 		room_goto(_next_room);
